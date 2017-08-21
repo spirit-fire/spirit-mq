@@ -39,7 +39,7 @@ public class MqProcessor {
         t.start();
     }
 
-    /** main deal function */
+    /** main deal function, add init-method="process" in .xml */
     public void process(){
         if(!mqProcessor){
             // log info, do not start mq processor
